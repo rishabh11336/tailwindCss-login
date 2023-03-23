@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="mern.png" type="image/x-icon">
+    <link rel="stylesheet" href="/main.css">
+    <title>Home</title>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-500 flex">
+        <div class="items-center flex relative">
+            <img src="mern.png" alt="" class="h-10">
+            <div class="mx-5 text-xl text-white cursor-pointer hover:text-slate-800">MERN ADMINISTRATION</div>
+        </div>
+        <nav class="flex justify-items-end absolute -right-0">   
+                <ul class="px-4 py-2 flex space-x-4 items-end justify-end">
+                    <li class="cursor-pointer text-white hover:text-slate-800 text-lg">Welcome, Username</li>
+                    <li class="cursor-pointer text-white hover:text-slate-800 text-lg">Home</li>
+                    <li class="cursor-pointer text-white hover:text-slate-800 text-lg">View Site</li>
+                    <li class="cursor-pointer text-white hover:text-slate-800 text-lg">Change password</li>
+                    <li class="cursor-pointer text-white hover:text-slate-800 text-lg">Log Out</li>
+                </ul>
+        </nav>
+    </header>
+    <div class="container flex py-10 px-10">
+        <div class="left w-1/2 relative">
+          <table class="min-w-full text-center text-sm font-light">
+            <thead
+              class="border-b bg-neutral-800 font-medium text-white dark:border-neutral-500 dark:bg-neutral-900">
+              <tr>
+                <th scope="col" class=" px-2 py-4">AUTHENTICATION AND AUTHORIZATION</th>
+                <th scope="col" class=" px-2 py-4"></th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b dark:border-neutral-500">
+                <td class="whitespace-nowrap  px-2 py-4 font-medium">Groups</td>
+                <td class="whitespace-nowrap  px-5 py-4"><a href="" class="text-slate-800 font-bold hover:text-slate-500">Add</a> / <a href="" class="text-slate-800 font-bold hover:text-slate-500">Change</a></td>
+                
+              </tr>
+              <tr class="border-b dark:border-neutral-500">
+                <td class="whitespace-nowrap  px-2 py-4 font-medium">Users</td>
+                <td class="whitespace-nowrap  px-2 py-4"><a href="" class="text-slate-800 font-bold hover:text-slate-500">Add</a> / <a href="" class="text-slate-800 font-bold hover:text-slate-500">Change</a></td>
+                
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="min-w-full text-center text-sm font-light my-52">
+            <thead
+              class="border-b bg-neutral-800 font-medium text-white dark:border-neutral-500 dark:bg-neutral-900">
+              <tr>
+                <th scope="col" class=" px-2 py-4">Modal 1(Class Name)</th>
+                <th scope="col" class=" px-2 py-4"></th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b dark:border-neutral-500">
+                <td class="whitespace-nowrap  px-2 py-4 font-medium">Table1</td>
+                <td class="whitespace-nowrap  px-5 py-4"><a href="" class="text-slate-800 font-bold hover:text-slate-500">Add</a> / <a href="" class="text-slate-800 font-bold hover:text-slate-500">Change</a></td>  
+              </tr>
+
+              <tr class="border-b dark:border-neutral-500">
+                <td class="whitespace-nowrap  px-2 py-4 font-medium">Table2</td>
+                <td class="whitespace-nowrap  px-2 py-4 "><a href="" class="text-slate-800 font-bold hover:text-slate-500">Add</a> / <a href="" class="text-slate-800 font-bold hover:text-slate-500">Change</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="right flex flex-col bg-white p-8 rounded-lg w-1/6 absolute -right-0 mx-5">
+          <ul>
+            <li class="font-bold">Recent Action</li>
+          </ul>
+            <hr>
+          <ol class="list-decimal mx-6">
+            <li class="cursor-pointer my-4 underline text-slate-900 hover:text-slate-500">latest</li>
+            <li class="cursor-pointer my-4 underline text-slate-900 hover:text-slate-500">before</li>
+            <li class="cursor-pointer my-4 underline text-slate-900 hover:text-slate-500">before this</li>
+            <li class="cursor-pointer my-4 underline text-slate-900 hover:text-slate-500">before that</li>
+          </ol>
+        </div>
+    </div>
+</body>
+</html>
